@@ -33,4 +33,5 @@ urlpatterns = [
     path("api/schema/swagger-ui/", SpectacularSwaggerView.as_view(url_name="schema"),
          name="swagger-ui"),
     re_path('^purchases/(?P<username>.+)/$', PostList.as_view()),
+    path('', include('snippets.urls')),
 ]

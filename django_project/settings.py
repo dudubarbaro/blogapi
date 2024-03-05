@@ -61,6 +61,7 @@ INSTALLED_APPS = [
     'django_filters',
     "accounts.apps.AccountsConfig",
     "posts.apps.PostsConfig",
+    'snippets',
 ]
 
 MIDDLEWARE = [
